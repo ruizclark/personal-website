@@ -38,6 +38,105 @@ export default function Experience() {
           </div>
 
           <div className="max-w-4xl mx-auto">
+
+            {/* Work Experience Section */}
+            <motion.section
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="mb-12 relative"
+            >
+              <div className="relative z-10 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-md p-8 border-l-4 border-secondary-500">
+                <h2 className="mb-6 pb-2 border-b border-gray-200 dark:border-gray-700 flex items-center text-primary-600">
+                  Experience
+                </h2>
+
+                <div className="mb-8">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <h3 className="mb-0">Doctoral Candidate</h3>
+                    <p className="text-gray-600 dark:text-gray-400 bg-beige-300/20 px-3 py-1 rounded-full text-sm">
+                      Aug 2023 - Present
+                    </p>
+                  </div>
+                  <p className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-2">
+                    Harvard University, Cambridge, MA
+                  </p>
+                  <p className="text-base mb-8 text-left">
+                    Through the Doctorate in Education Leadership (EdLD) program at the Harvard Graduate School of Education (HGSE), I secured three innovation awards in order to launch Qüento, an AI-powered platform that aims to elevate the voices of students and their communities. Additionally, I built VERIVOX (an online platform to showcase the work of the EdLD community), co-authored an AI Implementation Guide for Prince George’s County Public Schools, and trained an AI Equity Coach for the Public Schools of Brookline. Given my background, I was invited to join the AI Task Force of the Massachusetts Department of Elementary and Secondary Education.
+                  </p>
+                </div>
+
+                <div className="mb-8">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <h3 className="mb-0">Interim & Deputy Chief Executive Officer</h3>
+                    <p className="text-gray-600 dark:text-gray-400 bg-beige-300/20 px-3 py-1 rounded-full text-sm">
+                      Aug 2019 - July 2023
+                    </p>
+                  </div>
+                  <p className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-2">
+                    Teach For Armenia, Yerevan, Armenia
+                  </p>
+                  <p className="text-base mb-8 text-left">
+                    During my tenure at Teach For Armenia, I secured more than $24 million, providing the organization with the resources to double its cohort size and reach 30,000 students across 10% of the country’s public schools. As the organization expanded, I led efforts to improve staff culture, taking Teach For Armenia to the #1 spot in an international survey conducted by Boston Consulting Group. Amid the pandemic, I oversaw the launch of a COVID-19 response through which we procured $2.5 million in technology. Under my leadership during the 2020 Artsakh War, we mobilized an emergency response that reached one out of every thirteen displaced students.
+                  </p>
+                </div>
+
+                <div className="mb-8">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <h3 className="mb-0">Managing Director, Leadership Development</h3>
+                    <p className="text-gray-600 dark:text-gray-400 bg-beige-300/20 px-3 py-1 rounded-full text-sm">
+                      July 2016 - July 2019
+                    </p>
+                  </div>
+                  <p className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-2">
+                    Teach For America, Denver, CO
+                  </p>
+                  <p className="text-base mb-8 text-left">
+                    At Teach For America Colorado, I oversaw efforts to transform cohort culture for the Denver region—supporting 115 teacher leaders and over 1,500 alumni—moving the site from one of the bottom five in the nation to the top quartile. My team achieved the highest participant satisfaction ever recorded in the region’s 10-year history, surpassing the national goals two years ahead of schedule.
+                  </p>
+                </div>
+              </div>
+            </motion.section>
+
+            {/* Skills Section */}
+            <motion.section
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="mb-12 relative"
+            >
+              <div className="relative z-10 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-md p-8 border-l-4 border-accent-400">
+                <h2 className="mb-6 pb-2 border-b border-gray-200 dark:border-gray-700 flex items-center text-primary-600">
+                  Skills
+                </h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="bg-beige-300/10 p-6 rounded-lg">
+                    <h3 className="mb-4 flex items-center">
+                      Technical Skills
+                    </h3>
+                    <ul className="list-disc pl-5 space-y-2 text-base md:text-lg leading-relaxed">
+                      <li>Familiar with Python, JavaScript (including Next.js & React), SQL, HTML, & CSS</li>
+                      <li>Microsoft Office Suite, QuarkXPress, Salesforce, Adobe Photoshop, & Illustrator</li>
+                      <li>80 WPM typing speed</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-accent-400/10 p-6 rounded-lg">
+                    <h3 className="mb-4 flex items-center">
+                      Languages
+                    </h3>
+                    <ul className="list-disc pl-5 space-y-2 text-base md:text-lg leading-relaxed">
+                      <li>English & Spanish (Native)</li>
+                      <li>French (Proficient)</li>
+                      <li>Armenian (Intermediate)</li>
+                      <li>Italian (Beginner)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </motion.section>
+
             {/* Education Section */}
             <motion.section
               initial={{ opacity: 0, y: 20 }}
@@ -46,8 +145,7 @@ export default function Experience() {
               className="mb-12 relative"
             >
               <div className="relative z-10 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-md p-8 border-l-4 border-primary-600">
-                <h2 className="mb-6 pb-2 border-b border-gray-200 dark:border-gray-700 flex items-center">
-                  <span className="inline-block w-8 h-8 bg-primary-600 rounded-full mr-3 flex-shrink-0"></span>
+                <h2 className="mb-6 pb-2 border-b border-gray-200 dark:border-gray-700 flex items-center text-primary-600">
                   Education
                 </h2>
 
@@ -74,143 +172,6 @@ export default function Experience() {
               </div>
             </motion.section>
 
-            {/* Work Experience Section */}
-            <motion.section
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="mb-12 relative"
-            >
-              <div className="relative z-10 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-md p-8 border-l-4 border-secondary-500">
-                <h2 className="mb-6 pb-2 border-b border-gray-200 dark:border-gray-700 flex items-center">
-                  <span className="inline-block w-8 h-8 bg-secondary-500 rounded-full mr-3 flex-shrink-0"></span>
-                  Work Experience
-                </h2>
-
-                <div className="mb-8">
-                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
-                    <h3 className="mb-0">Doctoral Candidate in Education Leadership (EdLD)</h3>
-                    <p className="text-gray-600 dark:text-gray-400 bg-beige-300/20 px-3 py-1 rounded-full text-sm">
-                      Aug 2023 - Present
-                    </p>
-                  </div>
-                  <p className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-2">
-                    Harvard University, Cambridge, MA
-                  </p>
-                  <ul className="list-disc pl-5 space-y-2 text-base md:text-lg leading-relaxed">
-                    <li>
-                      Built VERIVOX (www.verivox.pro), an online platform to amplify the voices of the EdLD community
-                    </li>
-                    <li>
-                      Received three innovation awards from the Harvard Graduate School of Education (HGSE) to launch
-                      Qüento (www.quento.ai), and AI-powered platform that synthesizes qualitative feedback from
-                      students
-                    </li>
-                    <li>
-                      Co-authored an AI Implementation Guide for Prince George's County Public Schools (www.ai-ed.info)
-                    </li>
-                    <li>
-                      Developed an AI Equity Coach for the Public Schools of Brookline through a Superintendent
-                      Fellowship
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="mb-8">
-                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
-                    <h3 className="mb-0">Interim & Deputy Chief Executive Officer</h3>
-                    <p className="text-gray-600 dark:text-gray-400 bg-beige-300/20 px-3 py-1 rounded-full text-sm">
-                      Aug 2019 - July 2023
-                    </p>
-                  </div>
-                  <p className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-2">
-                    Teach For Armenia, Yerevan, Armenia
-                  </p>
-                  <ul className="list-disc pl-5 space-y-2 text-base md:text-lg leading-relaxed">
-                    <li>
-                      Developed Change-Based Learning & accelerator program, which incubated 300+ Student-Led Projects
-                    </li>
-                    <li>
-                      Launched a wartime Emergency Education Response, reaching 1 out of every 13 displaced students
-                    </li>
-                    <li>
-                      Devised the organization's COVID-19 response, procuring $2+ million towards the purchase of
-                      technology
-                    </li>
-                    <li>
-                      Oversaw expansion of program to all regions in Armenia while doubling the size of the teaching
-                      cohort within a period of one year, therefore increasing the number of students reached from
-                      15,000 to 34,000
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="mb-8">
-                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
-                    <h3 className="mb-0">Managing Director, Leadership Development</h3>
-                    <p className="text-gray-600 dark:text-gray-400 bg-beige-300/20 px-3 py-1 rounded-full text-sm">
-                      July 2016 - July 2019
-                    </p>
-                  </div>
-                  <p className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-2">
-                    Teach For America, Denver, CO
-                  </p>
-                  <ul className="list-disc pl-5 space-y-2 text-base md:text-lg leading-relaxed">
-                    <li>
-                      Led efforts to transform cohort culture for a region supporting 115 Teacher-Leaders & 1,500+
-                      Alumni, moving Colorado from the bottom 5 sites in the nation to the top quartile
-                    </li>
-                    <li>
-                      Achieved the highest participant satisfaction ever recorded in the region's 10-year history,
-                      surpassing the National Breakthrough Results 2 years ahead of schedule
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </motion.section>
-
-            {/* Skills Section */}
-            <motion.section
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="mb-12 relative"
-            >
-              <div className="relative z-10 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-md p-8 border-l-4 border-accent-400">
-                <h2 className="mb-6 pb-2 border-b border-gray-200 dark:border-gray-700 flex items-center">
-                  <span className="inline-block w-8 h-8 bg-accent-400 rounded-full mr-3 flex-shrink-0"></span>
-                  Skills
-                </h2>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="bg-beige-300/10 p-6 rounded-lg">
-                    <h3 className="mb-4 flex items-center">
-                      <span className="w-3 h-3 bg-primary-600 rounded-full mr-2"></span>
-                      Technical Skills
-                    </h3>
-                    <ul className="list-disc pl-5 space-y-2 text-base md:text-lg leading-relaxed">
-                      <li>Familiar with Python, JavaScript (including Next.js & React), SQL, HTML, & CSS</li>
-                      <li>Microsoft Office Suite, QuarkXPress, Salesforce, Adobe Photoshop, & Illustrator</li>
-                      <li>80 WPM typing speed</li>
-                    </ul>
-                  </div>
-
-                  <div className="bg-accent-400/10 p-6 rounded-lg">
-                    <h3 className="mb-4 flex items-center">
-                      <span className="w-3 h-3 bg-secondary-500 rounded-full mr-2"></span>
-                      Languages
-                    </h3>
-                    <ul className="list-disc pl-5 space-y-2 text-base md:text-lg leading-relaxed">
-                      <li>English & Spanish (Native)</li>
-                      <li>French (Proficient)</li>
-                      <li>Armenian (Intermediate)</li>
-                      <li>Italian (Beginner)</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </motion.section>
-
             {/* Certificates Section */}
             <motion.section
               initial={{ opacity: 0, y: 20 }}
@@ -219,8 +180,7 @@ export default function Experience() {
               className="relative"
             >
               <div className="relative z-10 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-md p-8 border-l-4 border-beige-300">
-                <h2 className="mb-6 pb-2 border-b border-gray-200 dark:border-gray-700 flex items-center">
-                  <span className="inline-block w-8 h-8 bg-beige-300 rounded-full mr-3 flex-shrink-0"></span>
+                <h2 className="mb-6 pb-2 border-b border-gray-200 dark:border-gray-700 flex items-center text-primary-600">
                   Certificates
                 </h2>
 
