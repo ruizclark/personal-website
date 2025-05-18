@@ -22,7 +22,7 @@ export default function Home() {
             className="max-w-3xl text-white"
           >
             <h1 className="mb-4">Ruiz Clark</h1>
-            <p className="text-xl md:text-2xl mb-8">AI Edupreneur & Educator</p>
+            <p className="text-xl md:text-2xl mb-8">AI Edupreneur</p>
             <Link href="/contact" className="btn-primary">
               Get in Touch
             </Link>
@@ -40,13 +40,17 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-center mb-12">My Mission</h2>
-            <p className="text-lg md:text-xl mb-8 text-center italic">
-              "My grandfather moved to the US from México as a bracero, and my mom followed in his footsteps. Both of my
-              parents grew up in low-income, rural communities. They did everything in their power to make sure that I
-              had access to opportunity, which is why I became an educator. As an AI edupreneur, I am very conscious of
-              the disparities that exist within the field of machine learning. It is therefore my mission to ensure that
-              the voices of diverse people are represented as these new technologies reshape society."
+            <p className="text-center mb-10 font-bold text-2xl text-primary-600">
+              My mission is to transform how institutions leverage artificial intelligence (AI) to meet the needs of learners.
+            </p>
+            <p className="text-base mb-8 text-center">
+              For more than 20 years, I have held leadership roles around the globe—driving organizational learning, change management, and innovation in education. As an executive, I led a team of 100 staff who supported over 200 teachers, impacting the lives of 30,000 students. During that time, I oversaw the creation of a Master’s program in Teacher Leadership, spearheaded a nationwide School Transformation Initiative, established a Public Policy Lab, and launched an Innovation Accelerator.
+            </p>
+            <p className="text-base mb-8 text-center">
+              Fueled by my passion for educational innovation, I founded Qüento, an AI-powered platform that elevates student and community voices, and VERIVOX, an online platform showcasing the work of doctoral students at the Harvard Graduate School of Education.
+            </p>
+            <p className="text-base mb-8 text-center">
+              Combining deep program-development expertise, technical savvy, and executive coaching, I partner with educational institutions to design and implement AI-driven solutions that deliver measurable results.
             </p>
           </motion.div>
         </div>
@@ -61,7 +65,7 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-center mb-12">Core Values</h2>
+            <h2 className="text-center mb-12">Areas of Expertise</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -70,9 +74,9 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-md"
               >
-                <h3 className="mb-4">In Lak'Ech</h3>
-                <p className="text-lg leading-relaxed">
-                  "You are my other me… If I do harm to you… I do harm to myself."
+                <h3 className="mb-2 text-lg font-semibold text-primary-600">Innovation Strategy</h3>
+                <p className="text-base leading-relaxed">
+                  Design and launch AI-driven initiatives that transform education.
                 </p>
               </motion.div>
 
@@ -83,9 +87,9 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-md"
               >
-                <h3 className="mb-4">Reach Back</h3>
-                <p className="text-lg leading-relaxed">
-                  "When… you've walked through that doorway of opportunity… reach back." – Michelle Obama
+                <h3 className="mb-2 text-lg font-semibold text-primary-600">Organizational Learning</h3>
+                <p className="text-base leading-relaxed">
+                  Use data to guide strategic decisions and drive continuous improvement.
                 </p>
               </motion.div>
 
@@ -96,10 +100,9 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-md"
               >
-                <h3 className="mb-4">Be Boldly You</h3>
-                <p className="text-lg leading-relaxed">
-                  I believe it is important to encourage others to be their authentic selves while also striving to be
-                  the best versions of their selves.
+                <h3 className="mb-2 text-lg font-semibold text-primary-600">Executive Coaching</h3>
+                <p className="text-base leading-relaxed">
+                  Advise leaders on change management and leadership development.
                 </p>
               </motion.div>
             </div>
@@ -123,7 +126,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link href="/projects" className="btn-secondary">
-                View My Projects
+                Current Projects
               </Link>
               <Link href="/contact" className="bg-white text-primary-600 hover:bg-gray-100 btn-outline">
                 Contact Me
