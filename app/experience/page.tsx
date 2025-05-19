@@ -113,12 +113,10 @@ export default function Experience() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-beige-300/10 p-6 rounded-lg">
                     <h3 className="mb-4 flex items-center">
-                      Technical Skills
+                      Programming Skills
                     </h3>
                     <ul className="list-disc pl-5 space-y-2 text-base md:text-lg leading-relaxed">
-                      <li>Familiar with Python, JavaScript (including Next.js & React), SQL, HTML, & CSS</li>
-                      <li>Microsoft Office Suite, QuarkXPress, Salesforce, Adobe Photoshop, & Illustrator</li>
-                      <li>80 WPM typing speed</li>
+                      <li>Familiar with C, Python, JavaScript (including v0 by Next.js & React), SQL, HTML, & CSS</li>
                     </ul>
                   </div>
 
@@ -130,7 +128,6 @@ export default function Experience() {
                       <li>English & Spanish (Native)</li>
                       <li>French (Proficient)</li>
                       <li>Armenian (Intermediate)</li>
-                      <li>Italian (Beginner)</li>
                     </ul>
                   </div>
                 </div>
