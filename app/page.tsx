@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center">
+      <section className="relative h-screen flex items-start">
         <div className="absolute inset-0 z-0">
           <Image src="/assets/profile.jpg" alt="Ruiz Clark" fill className="object-cover object-center" priority />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40" />
         </div>
 
-        <div className="container-custom relative z-10">
+        <div className="container-custom relative z-10 pt-[15vh]">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
