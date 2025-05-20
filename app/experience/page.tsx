@@ -149,7 +149,7 @@ export default function Experience() {
                     </p>
                   </div>
                   <p className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-2">
-                    Nanakuli High School, Nanakuli, HI
+                    Nānākuli High & Intermediate School, Nānākuli, HI
                   </p>
                   <p className="text-base mb-8 text-left">
                     While teaching at a Native Hawaiian homestead, I led 88 new language learners to write page-length essays in Spanish with an average mastery rate of 83%. I also founded an honors society, established a college scholarship, and launched a summer travel program. During the 2007-2008 school year, I received a "Teacher of the Year" award.                 
@@ -245,6 +245,7 @@ export default function Experience() {
                 <ul className="list-disc pl-5 space-y-3 text-base md:text-lg leading-relaxed">
                   <li>Relay Graduate School of Education, AI Prompt Engineering Microcredential (2024)</li>
                   <li>University of Denver, Trilogy Web Development Certificate (2018)</li>
+                  <li>Univesity of Hawai'i, Post-Baccalaureate Certificate in Secondary Education (2008)</li>
                 </ul>
               </div>
             </motion.section>
