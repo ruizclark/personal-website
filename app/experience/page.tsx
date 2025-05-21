@@ -82,7 +82,7 @@ export default function Experience() {
                     Teach For Armenia, Yerevan, Armenia
                   </p>
                   <p className="text-base mb-8 text-left">
-                    During my tenure at Teach For Armenia, I secured more than $24 million, providing the organization with the resources to double its cohort size and reach 30,000 students across 10% of the country’s public schools. As the organization expanded, I led efforts to improve staff culture, taking Teach For Armenia to the #1 spot in an international survey conducted by Boston Consulting Group. Amid the pandemic, I oversaw the launch of a COVID-19 response through which we procured $2.5 million in technology. Under my leadership during the 2020 Artsakh War, we mobilized an emergency response that reached one out of every thirteen displaced students.
+                    During my tenure at Teach For Armenia, I wrote a grant applicaiton worth $24 million, providing the organization with the resources to double its cohort size and reach 30,000 students across 10% of the country’s public schools. As the organization expanded, I led efforts to improve staff culture, taking Teach For Armenia to the #1 spot in an international survey conducted by Boston Consulting Group. Amid the pandemic, I oversaw the launch of a COVID-19 response through which we procured $2.5 million in technology. Under my leadership during the 2020 Artsakh War, we mobilized an emergency response that reached one out of every thirteen displaced students.
                   </p>
                 </div>
 
