@@ -22,7 +22,7 @@ export default function Home() {
             className="max-w-3xl text-white"
           >
             <h1 className="mb-4">Ruiz Clark</h1>
-            <p className="text-xl md:text-2xl mb-8">AI Edupreneur</p>
+            <p className="text-xl md:text-2xl mb-8">AI Edupreneur | Harvard EdLD</p>
             <Link href="/contact" className="btn-primary">
               Get in Touch
             </Link>
