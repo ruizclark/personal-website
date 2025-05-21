@@ -44,11 +44,13 @@ export default function Home() {
               My mission is to transform how institutions leverage artificial intelligence (AI) to meet the needs of learners.
             </p>
             <p className="text-base mb-8 text-center">
-              For more than 20 years, I have held leadership roles around the globe—driving organizational learning, change management, and innovation in education. As an executive, I led a team of 100 staff who supported over 200 teachers, impacting the lives of 30,000 students. During that time, I oversaw the creation of a Master’s program in Teacher Leadership, spearheaded a nationwide School Transformation Initiative, established a Public Policy Lab, and launched an Innovation Accelerator.
+              For more than 20 years, I have held leadership roles around the globe—driving organizational learning, change management, and innovation in education. As an executive, I led a team of 100 staff who supported over 200 teachers, impacting the lives of 30,000 students. During that time, I oversaw the creation of a Master’s program in Teacher Leadership, spearheaded a nationwide School Transformation Initiative, established a Public Policy Lab, and launched an Innovation Accelerator. Fueled by my passion for educational innovation, I recently co-founded Qüento, an AI-powered platform that elevates student and community voices.
             </p>
+            {/* 
             <p className="text-base mb-8 text-center">
               Fueled by my passion for educational innovation, I recently co-founded Qüento, an AI-powered platform that elevates student and community voices, and launched VERIVOX, an online platform showcasing the work of doctoral students at the Harvard Graduate School of Education.
             </p>
+            */}
             <p className="text-base mb-8 text-center">
               Combining deep program development expertise, technical savvy, and executive coaching, I partner with educational institutions to design and implement AI-driven solutions that deliver measurable results.
             </p>

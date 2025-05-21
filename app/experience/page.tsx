@@ -61,8 +61,13 @@ export default function Experience() {
                   <p className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-2">
                     Harvard University, Cambridge, MA
                   </p>
+                  {/* 
                   <p className="text-base mb-8 text-left">
                     Through the Doctorate in Education Leadership (EdLD) program at the Harvard Graduate School of Education (HGSE), I secured three innovation awards in order to launch Qüento, an AI-powered platform that aims to elevate the voices of students and their communities. Additionally, I built VERIVOX (an online platform to showcase the work of the EdLD community), co-authored an AI Implementation Guide for Prince George’s County Public Schools, and trained an AI Equity Coach for the Public Schools of Brookline. Given my background, I was invited to join the AI Task Force of the Massachusetts Department of Elementary and Secondary Education.
+                  </p>
+                  */}
+                  <p className="text-base mb-8 text-left">
+                    Through the Doctorate in Education Leadership (EdLD) program at the Harvard Graduate School of Education (HGSE), I secured three innovation awards in order to launch Qüento, an AI-powered platform that aims to elevate the voices of students and their communities. Additionally, I co-authored an AI Implementation Guide for Prince George’s County Public Schools, and trained an AI Equity Coach for the Public Schools of Brookline. Given my background, I was invited to join the AI Task Force of the Massachusetts Department of Elementary and Secondary Education.
                   </p>
                 </div>
 

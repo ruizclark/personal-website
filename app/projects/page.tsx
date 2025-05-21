@@ -13,14 +13,14 @@ const projects = [
     image: "quento.png",
     link: "https://www.quento.ai",
   },
-  {
-    id: 2,
-    title: "VERIVOX",
-    description:
-      "An online platform designed to amplify the voices of the EdLD community, fostering collaboration and knowledge sharing among educational leaders.",
-    image: "verivox.png",
-    link: "https://www.verivox.pro",
-  },
+  // {
+  //  id: 2,
+  //  title: "VERIVOX",
+  //  description:
+  //    "An online platform designed to amplify the voices of the EdLD community, fostering collaboration and knowledge sharing among educational leaders.",
+  //  image: "verivox.png",
+  //  link: "https://www.verivox.pro",
+  // },
   {
     id: 3,
     title: "AI Implementation Guide",
@@ -33,7 +33,7 @@ const projects = [
     id: 4,
     title: "Prishtalina",
     description:
-      "A children's book that explores themes of identity, diversity, and cultural understanding through engaging storytelling and beautiful illustrations.",
+      "A children’s book teaching body positivity, underscoring the harm of bullying, and celebrating women as leaders.",
     image: "prishtalina.png",
     link: "https://zangakbookstore.am/en/prshtalina",
   },
@@ -71,8 +71,7 @@ export default function Projects() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-lg md:text-xl text-center mb-12 max-w-3xl mx-auto text-white"
           >
-            Here are some of the key projects I've worked on throughout my career. Each represents my commitment to
-            leveraging technology for educational advancement and social impact.
+            Below are a few of my most recent projects, each reflecting my passion for innovation in education:         
           </motion.p>
 
           <motion.div
@@ -92,8 +91,7 @@ export default function Projects() {
           >
             <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm p-8 rounded-lg shadow-lg border-l-4 border-secondary-500">
               <h2 className="mb-6 flex items-center justify-center">
-                <span className="inline-block w-8 h-8 bg-secondary-500 rounded-full mr-3 flex-shrink-0"></span>
-                Interested in Collaboration?
+                Interested in Collaborating?
               </h2>
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
                 I'm always looking for new opportunities to work on impactful projects. If you have an idea or project
