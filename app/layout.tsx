@@ -13,7 +13,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Ruiz Clark | Personal Website",
+  title: "Ruiz Clark | AI Edupreneur",
   description: "Professional website for Ruiz Clark, AI edupreneur and educator.",
     generator: 'v0.dev'
 }
