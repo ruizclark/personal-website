@@ -13,14 +13,14 @@ const projects = [
     image: "quento.png",
     link: "https://www.quento.ai",
   },
-  // {
-  //  id: 2,
-  //  title: "VERIVOX",
-  //  description:
-  //    "An online platform designed to amplify the voices of the EdLD community, fostering collaboration and knowledge sharing among educational leaders.",
-  //  image: "verivox.png",
-  //  link: "https://www.verivox.pro",
-  // },
+  {
+    id: 2,
+    title: "VERIVOX",
+    description:
+      "A platform designed to spotlight the work and impact of Harvard’s Education Leadership Doctorate (EdLD) community, built with Next.js, Supabase, Tailwind CSS, and Vercel’s v0 to support knowledge sharing among practitioners.",
+    image: "verivox.png",
+    link: "https://www.verivox.pro",
+  },
   {
     id: 3,
     title: "AI Implementation Guide",
@@ -71,7 +71,7 @@ export default function Projects() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-lg md:text-xl text-center mb-12 max-w-3xl mx-auto text-white"
           >
-            Below are a few of my most recent projects, each reflecting my passion for innovation in education:         
+            Below are a few of my most recent projects, each reflecting my passion for innovation in education:
           </motion.p>
 
           <motion.div
